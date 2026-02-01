@@ -142,25 +142,7 @@ Esse arquivo é o **input direto para dashboards e áreas de negócio**.
 
 ---
 
-## 9. Visualização (Power BI)
-
-O output foi preparado para visualização em Power BI, com foco em:
-
-1. **Visão de negócio**
-   - Taxa de churn
-   - Churn por tipo de contrato e serviço
-
-2. **Modelo**
-   - Métricas principais
-   - Performance geral
-
-3. **Ação**
-   - Clientes de alto risco
-   - Simulação de priorização (20%)
-
----
-
-## 10. Limitações
+## 9. Limitações
 
 - Modelo simples (Decision Tree)
 - Não há tuning extensivo de hiperparâmetros
@@ -171,7 +153,7 @@ Essas limitações são **intencionais**, priorizando clareza e domínio de fund
 
 ---
 
-## 11. Próximos Passos
+## 10. Próximos Passos
 
 - Comparar com modelos ensemble (Random Forest / Gradient Boosting)
 - Ajustar threshold visando maximizar recall
